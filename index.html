@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dev First</title>
+    <meta
+      name="description"
+      content="A simple and modern landing page for a startup or personal brand."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="container nav">
+        <div class="logo">Dev<span>First</span></div>
+        <div class="nav-links">
+          <a href="#about">About</a>
+          <a href="#services">Services</a>
+          <a href="#contact">Contact</a>
+        </div>
+        <a href="#contact" class="btn btn-primary">Get Started</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="container hero-content">
+          <div class="hero-text">
+            <p class="eyebrow">Your digital launch starts here</p>
+            <h1>Build a website that looks great and works hard.</h1>
+            <p class="lead">
+              We create clean, modern, and user-focused web experiences that help
+              businesses grow online.
+            </p>
+            <div class="hero-actions">
+              <a href="#services" class="btn btn-primary">Explore Services</a>
+              <a href="#about" class="btn btn-secondary">Learn More</a>
+            </div>
+            <ul class="hero-stats">
+              <li><strong>3x</strong><span>Faster Launches</span></li>
+              <li><strong>24/7</strong><span>Online Presence</span></li>
+              <li><strong>100%</strong><span>Responsive Design</span></li>
+            </ul>
+          </div>
+
+          <div class="hero-card">
+            <div class="card-top">
+              <span class="dot green"></span>
+              <span class="dot yellow"></span>
+              <span class="dot red"></span>
+            </div>
+            <div class="mockup">
+              <div class="mockup-window">
+                <div class="line short"></div>
+                <div class="line"></div>
+                <div class="line medium"></div>
+                <div class="blocks">
+                  <div class="block large"></div>
+                  <div class="block"></div>
+                  <div class="block"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="section">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">About us</p>
+            <h2>Simple design. Powerful results.</h2>
+          </div>
+          <div class="about-grid">
+            <div class="about-card">
+              <h3>Professional</h3>
+              <p>
+                We design websites that look polished and communicate your brand with
+                clarity.
+              </p>
+            </div>
+            <div class="about-card">
+              <h3>Fast</h3>
+              <p>
+                Built for speed, performance, and smooth user experience across all
+                devices.
+              </p>
+            </div>
+            <div class="about-card">
+              <h3>Scalable</h3>
+              <p>
+                Easily expand your website with pages, sections, features, and future
+                growth in mind.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="services" class="section alt-bg">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">Services</p>
+            <h2>Everything you need to start online</h2>
+          </div>
+          <div class="services-grid">
+            <article class="service-card">
+              <div class="icon">01</div>
+              <h3>Landing Pages</h3>
+              <p>Focused pages designed to highlight your product or business.</p>
+            </article>
+            <article class="service-card">
+              <div class="icon">02</div>
+              <h3>Portfolio Websites</h3>
+              <p>Showcase your work, projects, and expertise in a clean format.</p>
+            </article>
+            <article class="service-card">
+              <div class="icon">03</div>
+              <h3>Business Websites</h3>
+              <p>Create trust and attract customers with an effective online presence.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="section contact">
+        <div class="container contact-box">
+          <div>
+            <p class="eyebrow">Contact</p>
+            <h2>Ready to build your website?</h2>
+          </div>
+          <a href="mailto:hello@devfirst.com" class="btn btn-primary">hello@devfirst.com</a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-content">
+        <p>© <span id="year"></span> DevFirst. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
